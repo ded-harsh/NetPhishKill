@@ -31,7 +31,7 @@ Before running the script, find your network interface name:Run this in cmd (Com
 ```bash
 ipconfig
 ```
-Look for your active network adapter (Wi-Fi or Ethernet) and note the name. DO NOT use raw device names like "\Device\NPF_..."
+Look for your active network adapter (Wi-Fi or Ethernet) and note the name. DO NOT use raw device names like ```\Device\NPF_...```
 
 ## 2️⃣ Run NetPhishKill
 ```bash
