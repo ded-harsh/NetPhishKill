@@ -31,13 +31,13 @@ Before running the script, find your network interface name:Run this in cmd (Com
 ```bash
 ipconfig
 ```
-Look for your active network adapter (Wi-Fi or Ethernet) and note the name. DO NOT use raw device names like \Device\NPF_...
+Look for your active network adapter (Wi-Fi or Ethernet) and note the name. DO NOT use raw device names like "\Device\NPF_..."
 
 ## 2️⃣ Run NetPhishKill
 ```bash
 python netphishkill.py --iface "Wi-Fi"
 ```
-Or if using Ethernet(default so not necessaru):
+Or if using Ethernet(default so not necessary):
 ```bash
 python netphishkill.py --iface "Ethernet"
 ```
@@ -48,7 +48,7 @@ python netphishkill.py --iface "Ethernet"
 ### 1️⃣ Monitors network packets for suspicious domains.
 ### 2️⃣ Checks each domain against a phishing blocklist.
 ### 3️⃣ If a match is found, adds the domain to Windows Firewall rules to block it.
-### 4️⃣ Logs all flagged connections in netphishkill_log.txt.
+### 4️⃣ Logs all flagged connections in ```netphishkill_log.txt```.
 
 ## 🔹 Example Output
 ```
@@ -59,7 +59,7 @@ python netphishkill.py --iface "Ethernet"
 
 ## 🔹 Logs & Analysis
 
-### All findings are logged in netphishkill_log.txt. 
+### All findings are logged in ``` netphishkill_log.txt. ``` 
 ### Review this file to check for blocked domains and suspicious activity.
 
 ## 🔹 Future Plans
